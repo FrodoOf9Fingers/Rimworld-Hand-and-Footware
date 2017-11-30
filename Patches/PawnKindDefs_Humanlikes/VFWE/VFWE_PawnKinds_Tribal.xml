@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/PawnKindDef[defName="TribalSlinger"]</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/PawnKindDef[defName="TribalSlinger"]/apparelMoney</xpath>
+				<value>
+					<apparelMoney>
+						<min>200</min>
+						<max>450</max>
+					</apparelMoney>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

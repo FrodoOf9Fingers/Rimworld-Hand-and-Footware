@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- ========== TribalWarrior ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "TribalWarrior"]/apparelMoney/min</xpath>
+  <value>
+    <min>200</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "TribalWarrior"]/apparelMoney/max</xpath>
+  <value>
+    <max>450</max>
+  </value>
+</Operation>
+
+<!-- ========== TribalArcher ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "TribalArcher"]/apparelMoney/min</xpath>
+  <value>
+    <min>200</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "TribalArcher"]/apparelMoney/max</xpath>
+  <value>
+    <max>450</max>
+  </value>
+</Operation>
+
+<!-- ========== TribalChief ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "TribalChief"]/apparelMoney/min</xpath>
+  <value>
+    <min>700</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "TribalChief"]/apparelMoney/max</xpath>
+  <value>
+    <max>1800</max>
+  </value>
+</Operation>
+
+</Patch>

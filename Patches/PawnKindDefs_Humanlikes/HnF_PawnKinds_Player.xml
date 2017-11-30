@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- ========== Colonist ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "Colonist"]/apparelMoney/max</xpath>
+  <value>
+    <max>2650</max>
+  </value>
+</Operation>
+
+<!-- ========== Tribesperson ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "Tribesperson"]/apparelMoney/max</xpath>
+  <value>
+    <max>500</max>
+  </value>
+</Operation>
+
+</Patch>

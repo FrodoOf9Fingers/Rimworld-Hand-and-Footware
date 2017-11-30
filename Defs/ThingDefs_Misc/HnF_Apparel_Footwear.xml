@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- bases -->
+  <ThingDef Name="FootwearMakeableBase" ParentName="ApparelMakeableBase" Abstract="True">
+    <thingCategories>
+      <li>Footwear</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Feet</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef Name="FootArmorMakeableBase" ParentName="ArmorMakeableBase" Abstract="True">
+    <thingCategories>
+      <li>Footwear</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Feet</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+    </apparel>
+  </ThingDef>
+
+	<!-- ========== Shoes ========== -->
+
+  <ThingDef ParentName="FootwearMakeableBase">
+    <defName>Apparel_Shoes</defName>
+    <label>shoes</label>
+    <description>A basic, lightweight pair of shoes.</description>
+    <graphicData>
+      <texPath>Footwear/Shoes_OnMap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.5</Mass>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.08</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <tags>
+        <li>Outlander</li>
+        <li>Spacer</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+  	<!-- ========== Tribal Boots ========== -->
+
+	<ThingDef ParentName="FootwearMakeableBase">
+    <defName>Apparel_TribalBoots</defName>
+    <label>tribal boots</label>
+    <description>Large, rugged boots made out of animal hide.</description>
+    <graphicData>
+      <texPath>Footwear/TribalBoots_OnMap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>36</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>5400</WorkToMake>
+      <Mass>1.2</Mass>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.04</MoveSpeed>
+      <Insulation_Cold>-2</Insulation_Cold>
+    </equippedStatOffsets>
+    <apparel>
+      <tags>
+        <li>Tribal</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>
+  </ThingDef>
+
+  <!-- ========== Cowboy Boots ========== -->
+
+  <ThingDef ParentName="FootwearMakeableBase">
+    <defName>Apparel_CowboyBoots</defName>
+    <label>cowboy boots</label>
+    <description>A pair of stylish, hard-wearing cowboy boots.</description>
+    <graphicData>
+      <texPath>Footwear/CowboyBoots_OnMap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>55</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>1</Mass>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+    	<MoveSpeed>0.06</MoveSpeed>
+      <SocialImpact>0.05</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <tags>
+        <li>Outlander</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- ========== Plated Boots ========== -->
+
+  <ThingDef ParentName="FootArmorMakeableBase">
+    <defName>Apparel_CombatBoots</defName>
+    <label>plated boots</label>
+    <description>Cumbersome boots that protect the feet from various forms of physical harm.</description>
+    <graphicData>
+      <texPath>Footwear/CombatBoots_OnMap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>70</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>7200</WorkToMake>
+      <Mass>2.4</Mass>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.05</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <tags>
+        <li>Military</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+</Defs>

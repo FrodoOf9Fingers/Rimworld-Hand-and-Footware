@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- ========== SpaceRefugee ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "SpaceRefugee"]/apparelMoney/max</xpath>
+  <value>
+    <max>1250</max>
+  </value>
+</Operation>
+
+<!-- ========== SpaceSoldier ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "SpaceSoldier"]/apparelMoney/max</xpath>
+  <value>
+    <max>3750</max>
+  </value>
+</Operation>
+
+</Patch>

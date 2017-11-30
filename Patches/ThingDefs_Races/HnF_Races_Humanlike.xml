@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- ========== Human ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName = "Human"]/statBases/MoveSpeed</xpath>
+  <value>
+    <MoveSpeed>4.53</MoveSpeed>
+  </value>
+</Operation>
+
+</Patch>

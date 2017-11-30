@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- ========== Drifter ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "Drifter"]/apparelMoney/min</xpath>
+  <value>
+    <min>120</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "Drifter"]/apparelMoney/max</xpath>
+  <value>
+    <max>350</max>
+  </value>
+</Operation>
+
+<!-- ========== Scavenger ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "Scavenger"]/apparelMoney/min</xpath>
+  <value>
+    <min>335</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "Scavenger"]/apparelMoney/max</xpath>
+  <value>
+    <max>620</max>
+  </value>
+</Operation>
+
+<!-- ========== Thrasher ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "Thrasher"]/apparelMoney/min</xpath>
+  <value>
+    <min>335</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "Thrasher"]/apparelMoney/max</xpath>
+  <value>
+    <max>920</max>
+  </value>
+</Operation>
+
+<!-- ========== Pirate ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "Pirate"]/apparelMoney/min</xpath>
+  <value>
+    <min>575</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "Pirate"]/apparelMoney/max</xpath>
+  <value>
+    <max>1250</max>
+  </value>
+</Operation>
+
+</Patch>

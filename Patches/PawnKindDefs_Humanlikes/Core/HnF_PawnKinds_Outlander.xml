@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- ========== Villager ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "Villager"]/apparelMoney/min</xpath>
+  <value>
+    <min>360</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "Villager"]/apparelMoney/max</xpath>
+  <value>
+    <max>1020</max>
+  </value>
+</Operation>
+
+<!-- ========== TownGuard ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "TownGuard"]/apparelMoney/min</xpath>
+  <value>
+    <min>350</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "TownGuard"]/apparelMoney/max</xpath>
+  <value>
+    <max>1050</max>
+  </value>
+</Operation>
+
+</Patch>

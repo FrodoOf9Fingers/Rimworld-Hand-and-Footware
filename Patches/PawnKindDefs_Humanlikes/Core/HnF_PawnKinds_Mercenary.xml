@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- ========== GrenadierBase ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[@Name = "GrenadierBase"]/apparelMoney/min</xpath>
+  <value>
+    <min>875</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[@Name = "GrenadierBase"]/apparelMoney/max</xpath>
+  <value>
+    <max>1650</max>
+  </value>
+</Operation>
+
+<!-- ========== MercenaryGunner ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "MercenaryGunner"]/apparelMoney/min</xpath>
+  <value>
+    <min>1625</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "MercenaryGunner"]/apparelMoney/max</xpath>
+  <value>
+    <max>3200</max>
+  </value>
+</Operation>
+
+<!-- ========== MercenarySniper ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "MercenarySniper"]/apparelMoney/min</xpath>
+  <value>
+    <min>1625</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "MercenarySniper"]/apparelMoney/max</xpath>
+  <value>
+    <max>2850</max>
+  </value>
+</Operation>
+
+<!-- ========== MercenarySlasher ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "MercenarySlasher"]/apparelMoney/min</xpath>
+  <value>
+    <min>1100</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "MercenarySlasher"]/apparelMoney/max</xpath>
+  <value>
+    <max>2950</max>
+  </value>
+</Operation>
+
+<!-- ========== MercenaryHeavy ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[defName = "MercenaryHeavy"]/apparelMoney/max</xpath>
+  <value>
+    <max>475</max>
+  </value>
+</Operation>
+
+<!-- ========== EliteBase ========== -->
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[@Name = "EliteBase"]/apparelMoney/min</xpath>
+  <value>
+    <min>2750</min>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/PawnKindDef[@Name = "EliteBase"]/apparelMoney/max</xpath>
+  <value>
+    <max>4800</max>
+  </value>
+</Operation>
+
+</Patch>
